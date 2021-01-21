@@ -1,7 +1,5 @@
-# Nextra
+# Base
 
-**Nextra** is a [Next.js](https://nextjs.org) based static site generator. 0 line of code needed.  
-
-It supports Markdown with React components ([MDX](/docs/mdx)), automatically generated [sidebar and anchor links](/docs/anchors), file-system based routing, built-in syntax highlighting, i18n and more.
+**Base** is [sozonome](https://sznm.dev) a.k.a. Agustinus Nathaniel's personal knowledge base. I made this project to have a place where I can put my personal documentations / notes / any references which works for me. Most of it may be opinionated and not work for everyone, but feel free to make use of the content here as your references if you find it useful for you.
 
 ![](/demo.png)

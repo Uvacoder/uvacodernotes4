@@ -1,22 +1,8 @@
-# [Nextra](https://nextra.vercel.app)
+# [Personal Knowledge Base](https://base.sznm.dev)
 
-_Warning: this project is not production ready, API might change without notice._
+sozonome a.k.a. Agustinus Nathaniel's personal knowledge base.
+I made this project to have a place where I can put my personal documentations / notes / any references which works for me. Most of it may be opinionated and not work for everyone, but feel free to make use of the content as your references.
 
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
+This projects is bootstrapped using [Nextra](https://github.com/shuding/nextra), a Next.js and MDX powered, no-code site generator by [Shu Ding](https://github.com/shuding)
 
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
-
-![](/public/demo.png)
-
-## Development
-
-The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
-
-## Themes
-
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
-
----
-
-Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
+2021 - Agustinus Nathaniel
