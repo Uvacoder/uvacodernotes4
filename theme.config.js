@@ -15,14 +15,14 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the next site builder" />
-      <meta name="og:description" content="Nextra: the next site builder" />
+      <meta name="description" content="Base: sozonome's knowledge base" />
+      <meta name="og:description" content="Base: sozonome's knowledge base" />
       <meta name="twitter:card" content="summary_large_image" />
-      {/* <meta name="twitter:image" content="https://nextra.vercel.app/og.png" /> */}
+      <meta name="twitter:image" content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg" />
       <meta name="twitter:site:domain" content="nextra.vercel.app" />
       <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      {/* <meta name="og:image" content="https://nextra.vercel.app/og.png" /> */}
+      <meta name="og:title" content="Base: sozonome's knowledge base" />
+      <meta name="og:image" content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg" />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
       <link
         rel="apple-touch-icon"
