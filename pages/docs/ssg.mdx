@@ -4,15 +4,15 @@ import { useSSG } from 'nextra/ssg'
 
 export const getStaticProps = ({ params }) => {
   return fetch('https://api.github.com/repos/shuding/nextra')
-    .then(res => res.json())
-    .then(repo => ({
+    .then((res) => res.json())
+    .then((repo) => ({
       props: {
         // We return an `ssg` object in the props.
         ssg: {
-          stars: repo.stargazers_count
-        }
+          stars: repo.stargazers_count,
+        },
       },
-      revalidate: 5
+      revalidate: 5,
     }))
 }
 

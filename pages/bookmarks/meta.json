@@ -1,3 +1,14 @@
 {
-  "categories": "Index"
+  "index": "Categories",
+  "productivity": "Productivity",
+  "dev": "Development (software)",
+  "finance": "Finance",
+  "design": "Design",
+  "business": "Business",
+  "multimedia": "Multimedia",
+  "entertainment": "Entertainment",
+  "security": "Personal Data Security",
+  "blockchain": "Blockchain",
+  "self": "Self Appreciation",
+  "other": "other"
 }

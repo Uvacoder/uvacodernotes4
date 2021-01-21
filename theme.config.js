@@ -61,5 +61,13 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditOnGitHubLink: false,
-  footerText: <>2020 - {new Date().getFullYear()} | Agustinus Nathaniel.</>,
+  footerText: (
+    <>
+      2020 - {new Date().getFullYear()} |{' '}
+      <a href="https://sznm.dev" target="_blank">
+        sozonome
+      </a>
+      .
+    </>
+  ),
 }
