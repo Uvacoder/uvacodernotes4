@@ -19,11 +19,11 @@ export default {
       <meta name="og:description" content="Base: sozonome's knowledge base" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
+      <meta name="twitter:site:domain" content="base.sznm.dev" />
+      <meta name="twitter:url" content="https://base.sznm.dev" />
       <meta name="og:title" content="Base: sozonome's knowledge base" />
       <meta name="og:image" content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="apple-mobile-web-app-title" content="Base" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
