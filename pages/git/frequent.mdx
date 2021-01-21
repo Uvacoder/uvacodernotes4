@@ -1,0 +1,22 @@
+# Frequently Used
+
+Some git commands I frequently use but sometimes keep forgetting.
+
+## restore 
+```bash
+# restore a file
+git restore --source <branch_name> <file_relative_path>
+
+# restore to master
+git restore --source master pages/docs/index.tsx
+# restore to one last commit in master
+git restore --source master~1 pages/docs/index.tsx
+# restore to one last commit in current branch
+git restore -source=HEAD~1 pages/docs/index.tsx
+
+# restore a folder
+git restore --source <branch_name> <folder_relative_path> 
+git restore -source=HEAD~1 pages/docs
+```
+
+references : [git-tower](https://www.git-tower.com/learn/git/commands/git-restore/)
