@@ -1,4 +1,6 @@
 {
+  "practices": "Engineering Practices",
   "getting-started": "Getting Started",
+  "javascript": "Javascript Stuffs",
   "react-rendering-mode": "Rendering Mode in React"
 }
