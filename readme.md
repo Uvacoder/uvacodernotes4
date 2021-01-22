@@ -5,4 +5,7 @@ I made this project to have a place where I can put my personal documentations /
 
 This project is bootstrapped using [Nextra](https://github.com/shuding/nextra), a Next.js and MDX powered, no-code site generator by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com).
 
+Feature List
+- i18n : English and Indonesia (not stable yet, wait for Nextra production ready, then re-enable i18n)
+
 2020 - 2021 | Agustinus Nathaniel

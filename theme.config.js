@@ -85,8 +85,8 @@ export default {
       .
     </>
   ),
-  i18n: [
-    { locale: 'en', text: 'English' },
-    { locale: 'id', text: 'Bahasa Indonesia' },
-  ],
+  // i18n: [
+  //   { locale: 'en', text: 'English' },
+  //   { locale: 'id', text: 'Bahasa Indonesia' },
+  // ],
 }
