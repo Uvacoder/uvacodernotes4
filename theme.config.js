@@ -18,11 +18,17 @@ export default {
       <meta name="description" content="Base: sozonome's knowledge base" />
       <meta name="og:description" content="Base: sozonome's knowledge base" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg" />
+      <meta
+        name="twitter:image"
+        content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg"
+      />
       <meta name="twitter:site:domain" content="base.sznm.dev" />
       <meta name="twitter:url" content="https://base.sznm.dev" />
       <meta name="og:title" content="Base: sozonome's knowledge base" />
-      <meta name="og:image" content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg" />
+      <meta
+        name="og:image"
+        content="https://og-image.sznm.dev/**Base**%20%7C%20sozonome.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg"
+      />
       <meta name="apple-mobile-web-app-title" content="Base" />
       <link
         rel="apple-touch-icon"
@@ -53,7 +59,10 @@ export default {
         sizes="16x16"
         href="/icon/favicon-16x16.png"
       />
-      <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png" />
+      <meta
+        name="msapplication-TileImage"
+        content="/icon/ms-icon-144x144.png"
+      />
     </>
   ),
   search: true,
@@ -66,6 +75,14 @@ export default {
       2020 - {new Date().getFullYear()} |{' '}
       <a href="https://sznm.dev" target="_blank">
         sozonome
+      </a>
+      .<br />
+      Feel free to let me know if there are some content which are outdated /
+      need to be updated{' '}
+      <a
+        href={`mailto:hello@sznm.dev?subject=base.sznm.dev&body=${location.protocol}${location.host}${location.pathname}`}
+      >
+        here
       </a>
       .
     </>

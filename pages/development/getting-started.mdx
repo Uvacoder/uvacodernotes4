@@ -1,11 +1,43 @@
 # Getting Started
 
-Some template to quickly initialize projects and start developing right away:
+## React
 
-## nextchakra-starter
+### `create-react-app`
+```bash
+npx create-react-app <app_name>
+## or
+yarn create react-app <app_name>
+
+# typescript
+npx create-react-app <app_name> --template typescript
+## or
+yarn create react-app <app_name> --template typescript
+```
+references: 
+- [reactjs.org](https://reactjs.org/docs/create-a-new-react-app.html)
+- [create-react-app docs](https://create-react-app.dev/)
+- [adding typescript](https://create-react-app.dev/docs/adding-typescript/)
+
+### Next.js `create-next-app`
+```bash
+npx create-next-app <app_name>
+# or
+yarn create next-app <app_name>
+```
+reference: [nextjs.org](https://nextjs.org/docs/getting-started#setup)
+
+### Gatsby 
+```bash
+npm init gatsby
+# interactive setup
+```
+reference: [gatsbyjs.com](https://www.gatsbyjs.com/docs/quick-start/#getting-started-with-gatsby)
+
+### Some react template to quickly initialize projects and start developing right away:
+
+#### nextchakra-starter
 
 nextchakra-starter is a template to initialize PWA-ready (disabled by default) [**Next.js**](https://nextjs.org/) app with [**Chakra-UI**](https://chakra-ui.com/) and [**TypeScript**](https://www.typescriptlang.org/) setup.
-
 
 **Instant Deploy**
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextchakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextchakra-starter)
@@ -17,6 +49,14 @@ npx create-next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-
 yarn create next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-starter
 ```
 
-[**repository**](https://github.com/sozonome/nextchakra-starter)
+or [**create a new repository**](https://github.com/sozonome/nextchakra-starter/generate) from nextchakra-starter | [repository](https://github.com/sozonome/nextchakra-starter)
 
----
+## Svelte
+```bash
+npx degit sveltejs/template <project_name>
+cd <project_name>
+
+npm i
+npm run dev
+```
+reference: [svelte.dev](https://svelte.dev/blog/the-easiest-way-to-get-started#2_Use_degit)
