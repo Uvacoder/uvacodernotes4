@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "start": "next start",
-    "build": "next build"
+    "build": "next build",
+    "prettify-bookmark": "prettier --write pages/bookmarks"
   },
   "author": "Shu Ding",
   "license": "MIT",
