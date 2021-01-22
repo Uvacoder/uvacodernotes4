@@ -79,9 +79,7 @@ export default {
       .<br />
       Feel free to let me know if there are some content which are outdated /
       need to be updated{' '}
-      <a
-        href={`mailto:hello@sznm.dev?subject=base.sznm.dev&body=${location.protocol}${location.host}${location.pathname}`}
-      >
+      <a href="mailto:hello@sznm.dev?subject=base.sznm.dev&body=which-page-url-and-give-some-details-of-your-request-or-question">
         here
       </a>
       .
