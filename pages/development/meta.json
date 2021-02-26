@@ -1,7 +1,8 @@
 {
   "practices": "Engineering Practices",
   "byte-sized": "Byte Sized Contents",
-  "getting-started": "Getting Started",
+  "git": "Git",
   "javascript": "Javascript Stuffs",
-  "react-rendering-modes": "Rendering Modes in React"
+  "typescript": "TypeScript",
+  "react": "React"
 }
