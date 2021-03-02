@@ -4,5 +4,6 @@
   "git": "Git",
   "javascript": "Javascript Stuffs",
   "typescript": "TypeScript",
-  "react": "React"
+  "react": "React",
+  "svelte": "Svelte"
 }
