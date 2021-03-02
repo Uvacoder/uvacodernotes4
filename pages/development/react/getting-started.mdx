@@ -18,6 +18,20 @@ references:
 - [create-react-app docs](https://create-react-app.dev/)
 - [adding typescript](https://create-react-app.dev/docs/adding-typescript/)
 
+### `create-snowpack-app`
+```bash
+npx create-snowpack-app <app_name> --template @snowpack/app-template-react-typescript [--use-yarn | --use-pnpm | --no-install]
+# or
+npx create-snowpack-app <app_name> --template @snowpack/app-template-react
+```
+
+references:
+- [https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/cli](https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/cli)
+- [https://www.snowpack.dev/tutorials/react](https://www.snowpack.dev/tutorials/react)
+- [https://www.snowpack.dev/](https://www.snowpack.dev/)
+- [https://www.snowpack.dev/concepts/build-pipeline#bundle-for-production](https://www.snowpack.dev/concepts/build-pipeline#bundle-for-production)
+- [https://www.snowpack.dev/posts/2021-01-13-snowpack-3-0](https://www.snowpack.dev/posts/2021-01-13-snowpack-3-0)
+
 ### Next.js `create-next-app`
 ```bash
 npx create-next-app <app_name>
@@ -50,13 +64,3 @@ yarn create next-app <APP_NAME> --example https://github.com/sozonome/nextchakra
 ```
 
 or [**create a new repository**](https://github.com/sozonome/nextchakra-starter/generate) from nextchakra-starter | [repository](https://github.com/sozonome/nextchakra-starter)
-
-## Svelte
-```bash
-npx degit sveltejs/template <project_name>
-cd <project_name>
-
-npm i
-npm run dev
-```
-reference: [svelte.dev](https://svelte.dev/blog/the-easiest-way-to-get-started#2_Use_degit)
