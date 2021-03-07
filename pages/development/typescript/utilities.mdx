@@ -24,7 +24,7 @@ enum RegisterFormField {
   username
 }
 
-type RegisterFormInput = Record<RegisterFormField, string>
+type RegisterFormInput = Record<keyof typeof RegisterFormField, string>
 ```
 
 or : 
@@ -38,8 +38,10 @@ enum RegisterFormField {
   username
 }
 
+type RegisterFormFieldType = keyof typeof RegisterFormField
+
 type RegisterFormInput = {
-  [key in RegisterFormField]: string;
+  [key in RegisterFormFieldType]: string;
 }
 ```
 
