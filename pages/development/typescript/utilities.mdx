@@ -43,6 +43,9 @@ type RegisterFormFieldType = keyof typeof RegisterFormField
 type RegisterFormInput = {
   [key in RegisterFormFieldType]: string;
 }
+/** or
+type RegisterFormInput = Record<RegisterFormFieldType, string>
+*/
 ```
 
 other examples: 
