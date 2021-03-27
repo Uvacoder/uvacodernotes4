@@ -18,6 +18,21 @@ references:
 - [create-react-app docs](https://create-react-app.dev/)
 - [adding typescript](https://create-react-app.dev/docs/adding-typescript/)
 
+### `@vitejs/app`
+```bash
+npm init @vitejs/app <app_name> --template react
+## or
+yarn create @vitejs/app <app_name> --template react
+
+# typescript
+npm init @vitejs/app <app_name> --template react-ts
+## or
+yarn create @vitejs/app <app_name> --template react-ts
+```
+references:
+- [vitejs.dev](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+- [https://github.com/vitejs/vite/tree/main/packages/create-app](https://github.com/vitejs/vite/tree/main/packages/create-app)
+
 ### `create-snowpack-app`
 ```bash
 npx create-snowpack-app <app_name> --template @snowpack/app-template-react-typescript [--use-yarn | --use-pnpm | --no-install]
@@ -58,9 +73,25 @@ nextchakra-starter is a template to initialize PWA-ready (disabled by default) [
 
 **using `create-next-app`**:
 ```bash
-npx create-next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-starter
+npx create-next-app <app_name> --example https://github.com/sozonome/nextchakra-starter
 # or 
-yarn create next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-starter
+yarn create next-app <app_name> --example https://github.com/sozonome/nextchakra-starter
+# or
+npx degit sozonome/nextchakra-starter <app_name>
 ```
 
 or [**create a new repository**](https://github.com/sozonome/nextchakra-starter/generate) from nextchakra-starter | [repository](https://github.com/sozonome/nextchakra-starter)
+
+#### vite-react-chakra-starter
+```bash
+npx degit sozonome/vite-react-chakra-starter <app_name>
+```
+
+or [**create a new repository**](https://github.com/sozonome/vite-react-chakra-starter/generate) from vite-react-chakra-starter | [repository](https://github.com/sozonome/vite-react-chakra-starter)
+
+#### snowpack-react-chakra-starter
+```bash
+npx degit sozonome/snowpack-react-chakra-starter <app_name>
+```
+
+or [**create a new repository**](https://github.com/sozonome/snowpack-react-chakra-starter/generate) from snowpack-react-chakra-starter | [repository](https://github.com/sozonome/snowpack-react-chakra-starter)
