@@ -10,11 +10,12 @@
     "build": "next build",
     "prettify-bookmark": "prettier --write pages/bookmarks",
     "release": "standard-version",
-    "push-release": "git push --follow-tags origin main"
+    "push-release": "git push --follow-tags origin main",
+    "up-latest": "yarn upgrade-interactive --latest"
   },
   "license": "MIT",
   "dependencies": {
-    "next": "^10.1.3",
+    "next": "^10.2.0",
     "nextra": "^0.4.4",
     "nextra-theme-docs": "^1.1.6",
     "react": "^17.0.2",
@@ -22,7 +23,7 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1",
-    "standard-version": "^9.1.1"
+    "standard-version": "^9.3.0"
   },
   "prettier": {
     "semi": false,
