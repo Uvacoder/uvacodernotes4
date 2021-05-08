@@ -12,7 +12,7 @@
 - `twemoji`
 - `yup`
 
-### Mobile
+### Mobile - Hybrid
 
 - `@capacitor/core`
 
