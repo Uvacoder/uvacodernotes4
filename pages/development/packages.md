@@ -39,6 +39,7 @@
 - `@material-ui/core`
 - `@material-ui/labs`
 - `@material-ui/styles`
+- `boring-avatars`
 - `formik`
 - `next`
 - `react-icons`
