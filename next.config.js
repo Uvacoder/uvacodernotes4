@@ -4,7 +4,4 @@ module.exports = withNextra({
   //   locales: ['en', 'id'],
   //   defaultLocale: 'en'
   // }
-  future: {
-    webpack5: true
-  }
 })
