@@ -4,11 +4,12 @@ Some engineering practices.
 
 ## Conventional Commits
 
-A convention on top of commit messages, conforms with SemVer. 
+A convention on top of commit messages, conforms with SemVer.
 
 ### Why use conventional commits?
+
 - communicate and document changes better (easier to read and track).
--  a more structured commit history, helping others to contribute easier.
+- a more structured commit history, helping others to contribute easier.
 - directs us to commit by scope (a commit for a specific problem)
 - helps to generate automatic changelog when using `standard-version`.
 
@@ -19,14 +20,15 @@ A convention on top of commit messages, conforms with SemVer.
 feat(pages): add home page
 ```
 
-| type | |
-|---|---|
+| type   |                                         |
+| ------ | --------------------------------------- |
 | `feat` | adds a new feature which brings changes |
-| `fix` | bug fix |
+| `fix`  | bug fix                                 |
 
 If you are using [VSCode](https://code.visualstudio.com/), you can use [this extension](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) to help you compose conventional commit messages.
 
-**read more**: 
+**read more**:
+
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Standard Version](https://github.com/conventional-changelog/standard-version)
 
@@ -42,9 +44,9 @@ by giving a label prefix:
 
 > **suggestion**: It's not worded correctly
 >
->how about `other_word` instead?
+> how about `other_word` instead?
 
-sounds better, right? Reducing undercommunication and misunderstandings. 
+sounds better, right? Reducing undercommunication and misunderstandings.
 
 ```
 <label> [decorations]: <subject>

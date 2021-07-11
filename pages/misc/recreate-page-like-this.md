@@ -1,6 +1,6 @@
 # How to Create Page Like This?
 
-This page is built using [**Nextra**](https://nextra.vercel.app) ([repo here](https://github.com/shuding/nextra)), a Next.js and MDX powered, no-code site generator by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). 
+This page is built using [**Nextra**](https://nextra.vercel.app) ([repo here](https://github.com/shuding/nextra)), a Next.js and MDX powered, no-code site generator by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com).
 
 It comes with two themes: [docs](https://github.com/shuding/nextra/tree/core/packages/nextra-theme-docs)(`nextra-theme-docs`) and [blog](https://github.com/shuding/nextra/tree/core/packages/nextra-theme-blog)(`nextra-theme-blog`). This site you are seeing is using `nextra-theme-docs`.
 
