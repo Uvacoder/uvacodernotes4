@@ -34,7 +34,7 @@
     "singleQuote": true
   },
   "lint-staged": {
-    "pages": [
+    "pages/**/*.{js,jsx,ts,tsx,md,mdx,css}": [
       "prettier --write"
     ]
   }
