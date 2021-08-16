@@ -1,5 +1,11 @@
 export default {
-  repository: 'https://github.com/sozonome',
+  github: 'https://github.com/sozonome',
+  docsRepositoryBase: 'https://github.com/sozonome/my-base',
+  branch: 'main',
+  nextLinks: true,
+  prevLinks: true,
+  search: true,
+  darkMode: true, 
   titleSuffix: ' | base - sozonome',
   logo: (
     <>
