@@ -81,17 +81,28 @@ nextchakra-starter is a template to initialize PWA-ready (disabled by default) [
 **Instant Deploy**
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextchakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextchakra-starter)
 
-**using `create-next-app`**:
+or
 
 ```bash
-npx create-next-app <app_name> --example https://github.com/sozonome/nextchakra-starter
-# or
-yarn create next-app <app_name> --example https://github.com/sozonome/nextchakra-starter
-# or
 npx degit sozonome/nextchakra-starter <app_name>
 ```
 
 or [**create a new repository**](https://github.com/sozonome/nextchakra-starter/generate) from nextchakra-starter | [repository](https://github.com/sozonome/nextchakra-starter)
+
+#### nextmui-starter
+
+nextmui-starter is a template to initialize PWA-ready (disabled by default) [**Next.js**](https://nextjs.org/) app with [**Material UI v5**](https://mui.com/) and [**TypeScript**](https://www.typescriptlang.org/) setup.
+
+**Instant Deploy**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextmui-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextmui-starter)
+
+or
+
+```bash
+npx degit sozonome/nextmui-starter <app_name>
+```
+
+or [**create a new repository**](https://github.com/sozonome/nextmui-starter/generate) from nextmui-starter | [repository](https://github.com/sozonome/nextmui-starter)
 
 #### vite-react-chakra-starter
 
