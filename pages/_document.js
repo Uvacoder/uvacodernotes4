@@ -1,28 +1,18 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-import { GA_TRACKING_ID } from '../lib/gtag'
+import { UMAMI_SRC, UMAMI_WEBSITE_ID } from '../constants/umami'
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          {/* umami self-hosted analytics */}
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
+            defer
+            data-website-id={UMAMI_WEBSITE_ID}
+            src={UMAMI_SRC}
           />
         </Head>
         <body>
