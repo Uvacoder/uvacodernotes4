@@ -1,6 +1,6 @@
 {
-  "index": "Home",
-  "development": "Software Development",
-  "bookmarks": "Bookmarks",
-  "misc": "Miscellaneous"
+  "index": { "title": "Home", "type": "nav", "hidden": true },
+  "development": { "title": "Software Development", "type": "nav" },
+  "bookmarks": { "title": "Bookmarks", "type": "nav" },
+  "misc": { "title": "misc", "type": "nav" }
 }
