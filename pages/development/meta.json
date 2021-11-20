@@ -3,5 +3,7 @@
   "byte-sized": "Byte Sized Contents",
   "git": "Git",
   "typescript": "TypeScript",
-  "packages": "Go-To Packages"
+  "web": "Web",
+  "mobile": "Mobile",
+  "dart": "Dart"
 }
