@@ -2,9 +2,6 @@
   "practices": "Engineering Practices",
   "byte-sized": "Byte Sized Contents",
   "git": "Git",
-  "javascript": "Javascript Stuffs",
   "typescript": "TypeScript",
-  "react": "React",
-  "svelte": "Svelte",
   "packages": "Go-To Packages"
 }
