@@ -23,11 +23,17 @@ keywords: discoverability, performance, accessibility.
 
 ### React
 
-- [ ] preact for production build (optional)
+- [ ] [preact](https://preactjs.com/) for production build (optional)
+  - [Next.js - Replace React with Preact](https://darrenwhite.dev/blog/nextjs-replace-react-with-preact)
 
 ## Accessibility / a11y
 
 - [ ] [ensure accessibility for everyone](https://web.dev/accessible/)
+
+## Security
+
+- [CSP (Content Security Policy)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+  - [Scan your site](https://securityheaders.com/)
 
 ## Optional / Additionals
 
