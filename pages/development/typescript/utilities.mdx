@@ -15,7 +15,7 @@ type RegisterFormInput = {
 
 can be written like this:
 
-```ts highlight=10
+```ts highlight="10"
 enum RegisterFormField {
   name,
   email,
@@ -30,7 +30,7 @@ type RegisterFormInput = Record<keyof typeof RegisterFormField, string>
 
 or :
 
-```ts highlight=12,13,14,16
+```ts highlight="12,13,14,16"
 enum RegisterFormField {
   name,
   email,
@@ -51,7 +51,7 @@ type RegisterFormInput = Record<RegisterFormFieldType, string>
 
 other examples:
 
-```ts highlight=1,7,20
+```ts highlight="1,7,20"
 type CardSpecs = {
   name: string
   ID: number
@@ -124,7 +124,7 @@ type OptionalRegisterFormInput = {
 
 can be written like this:
 
-```ts highlight=10
+```ts highlight="10"
 type RegisterFormInput = {
   name: string
   email: string

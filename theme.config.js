@@ -4,6 +4,7 @@ export default {
   branch: 'main',
   nextLinks: true,
   prevLinks: true,
+  unstable_stork: false,
   search: true,
   darkMode: true, 
   titleSuffix: ' | base - sozonome',
