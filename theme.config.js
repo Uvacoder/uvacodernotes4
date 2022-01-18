@@ -5,6 +5,7 @@ export default {
   nextLinks: true,
   prevLinks: true,
   unstable_stork: false,
+  floatTOC: true,
   search: true,
   darkMode: true, 
   titleSuffix: ' | base - sozonome',

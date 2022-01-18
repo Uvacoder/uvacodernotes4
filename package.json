@@ -11,22 +11,26 @@
     "format": "prettier --write pages",
     "release": "standard-version",
     "push-release": "git push --follow-tags origin main",
-    "up-latest": "yarn upgrade-interactive --latest",
+    "up": "yarn upgrade-interactive",
+    "up-latest": "yarn up --latest",
+    "up-next": "yarn up --next",
+    "up-alpha": "yarn up --alpha",
+    "up-beta": "yarn up --beta",
     "pre-commit": "lint-staged",
     "prepare": "husky install"
   },
   "license": "MIT",
   "dependencies": {
-    "next": "^12.0.7",
-    "nextra": "^2.0.0-beta.5",
-    "nextra-theme-docs": "^2.0.0-beta.5",
+    "next": "^12.0.8",
+    "nextra": "^2.0.0-alpha.16",
+    "nextra-theme-docs": "^2.0.0-alpha.16",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "critters": "^0.0.14",
     "husky": "^7.0.4",
-    "lint-staged": "^12.1.2",
+    "lint-staged": "^12.1.7",
     "prettier": "^2.5.0",
     "standard-version": "^9.3.2"
   },
