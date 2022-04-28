@@ -1,23 +1,24 @@
 export default {
-  github: 'https://github.com/sozonome',
+  projectLink: 'https://github.com/sozonome',
   docsRepositoryBase: 'https://github.com/sozonome/my-base',
   branch: 'main',
   nextLinks: true,
   prevLinks: true,
   unstable_stork: false,
+  unstable_flexsearch: true,
   floatTOC: true,
   search: true,
-  darkMode: true, 
+  darkMode: true,
   titleSuffix: ' | base - sozonome',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Base</span>
-      <span className="text-gray-600 font-normal hidden md:inline">
+      <span className="mr-2 font-extrabold md:inline">Base</span>
+      <span className="text-gray-600 font-normal md:inline">
         sozonome
       </span>
     </>
   ),
-  head: (
+  head: () => (
     <>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
@@ -73,12 +74,9 @@ export default {
       />
     </>
   ),
-  search: true,
-  prevLinks: true,
-  nextLinks: true,
   footer: true,
   footerEditOnGitHubLink: false,
-  footerText: (
+  footerText: () => (
     <>
       2020 - {new Date().getFullYear()} |{' '}
       <a href="https://sznm.dev" target="_blank">

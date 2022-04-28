@@ -1,6 +1,6 @@
 {
-  "index": { "title": "Home", "type": "nav", "hidden": true },
-  "development": { "title": "Software Development", "type": "nav" },
-  "bookmarks": { "title": "Bookmarks", "type": "nav" },
-  "misc": { "title": "misc", "type": "nav" }
+  "index": { "title": "Home", "type": "page", "hidden": true },
+  "development": { "title": "Software Development", "type": "page" },
+  "bookmarks": { "title": "Bookmarks", "type": "page" },
+  "misc": { "title": "misc", "type": "page" }
 }
