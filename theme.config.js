@@ -4,7 +4,6 @@ export default {
   branch: 'main',
   nextLinks: true,
   prevLinks: true,
-  unstable_stork: false,
   unstable_flexsearch: true,
   floatTOC: true,
   search: true,
@@ -75,7 +74,7 @@ export default {
     )
   },
   footer: true,
-  footerEditOnGitHubLink: false,
+  footerEditLink: () => 'Edit this page →',
   footerText: () => (
     <>
       2020 - {new Date().getFullYear()} |{' '}
