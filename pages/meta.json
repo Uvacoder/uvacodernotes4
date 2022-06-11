@@ -1,6 +1,6 @@
 {
   "index": { "title": "Home", "type": "page", "hidden": true },
-  "development": { "title": "Software Development", "type": "page" },
   "bookmarks": { "title": "Bookmarks", "type": "page" },
+  "development": { "title": "Software Development", "type": "page" },
   "misc": { "title": "misc", "type": "page" }
 }
