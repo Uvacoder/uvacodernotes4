@@ -24,14 +24,14 @@
     "next": "^12.1.6",
     "nextra": "2.0.0-alpha.56",
     "nextra-theme-docs": "2.0.0-alpha.59",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "critters": "^0.0.16",
     "husky": "^8.0.1",
     "lint-staged": "^12.5.0",
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.1",
     "standard-version": "^9.5.0"
   },
   "prettier": {
