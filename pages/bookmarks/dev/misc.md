@@ -1,4 +1,4 @@
-# React - miscellaneous
+# Miscellaneous
 
 ## Eye Opener
 
