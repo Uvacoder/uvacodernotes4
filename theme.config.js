@@ -1,12 +1,14 @@
+/** @type {import('nextra-theme-docs').DocsThemeConfig} */
 export default {
-  projectLink: 'https://github.com/sozonome',
+  project: { link: 'https://github.com/sozonome' },
   docsRepositoryBase: 'https://github.com/sozonome/my-base',
   branch: 'main',
-  nextLinks: true,
-  prevLinks: true,
+  navigation: {
+    next: true,
+    prev: true,
+  },
   unstable_flexsearch: true,
-  floatTOC: true,
-  search: true,
+  float: true,
   darkMode: true,
   titleSuffix: ' | base - sozonome',
   logo: (
@@ -73,9 +75,8 @@ export default {
       </>
     )
   },
-  footer: true,
-  footerEditLink: () => 'Edit this page →',
-  footerText: () => (
+  editLink: () => 'Edit this page →',
+  footer: () => (
     <>
       2020 - {new Date().getFullYear()} |{' '}
       <a href="https://sznm.dev" target="_blank">
