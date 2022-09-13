@@ -76,21 +76,34 @@ export default {
     )
   },
   editLink: () => 'Edit this page →',
-  footer: () => (
-    <>
-      2020 - {new Date().getFullYear()} |{' '}
-      <a href="https://sznm.dev" target="_blank">
-        sozonome
-      </a>
-      .<br />
-      Feel free to let me know if there are some content which are outdated /
-      need to be updated{' '}
-      <a href="mailto:hello@sznm.dev?subject=base.sznm.dev&body=which-page-url-and-give-some-details-of-your-request-or-question">
-        here
-      </a>
-      .
-    </>
-  ),
+  footer: {
+    text: (
+      <>
+        2020 - {new Date().getFullYear()} |{' '}
+        <a
+          href="https://sznm.dev"
+          target="_blank"
+          style={{
+            textDecoration: 'underline',
+          }}
+        >
+          sozonome
+        </a>
+        .<br />
+        Feel free to let me know if there are some content which are outdated /
+        need to be updated{' '}
+        <a
+          href="mailto:hello@sznm.dev?subject=base.sznm.dev&body=which-page-url-and-give-some-details-of-your-request-or-question"
+          style={{
+            textDecoration: 'underline',
+          }}
+        >
+          here
+        </a>
+        .
+      </>
+    ),
+  },
   // i18n: [
   //   { locale: 'en', text: 'English' },
   //   { locale: 'id', text: 'Bahasa Indonesia' },
