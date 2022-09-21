@@ -14,9 +14,18 @@
 - [`nanoid`](https://www.npmjs.com/package/nanoid)
 - [`yup`](https://github.com/jquense/yup#readme)
 
+#### State Management
+
+- [`zustand`](https://docs.pmnd.rs/zustand/getting-started/introduction)
+- [`@preact/signals`](https://preactjs.com/blog/introducing-signals/)
+
 ### Data Fetching
 
 - [`axios`](https://axios-http.com/)
+
+### Testing
+
+- [`vitest`](https://vitest.dev)
 
 ### Development Tooling
 
@@ -24,6 +33,10 @@
 - [`husky`](https://typicode.github.io/husky/#/)
 - [`prettier`](https://prettier.io/)
 - [`standard-version`](https://www.npmjs.com/package/standard-version)
+
+### Design System
+
+- [`storybook`](https://storybook.js.org/)
 
 ### Mobile - Hybrid
 
@@ -70,3 +83,4 @@
 - `@ionic/react`
 - `@ionic/storage`
 - `ionicons`
+- [`solito`](https://solito.dev/)
