@@ -1,15 +1,21 @@
+import { useRouter } from 'next/router'
+import { useConfig } from 'nextra-theme-docs'
+
 /** @type {import('nextra-theme-docs').DocsThemeConfig} */
 export default {
   project: { link: 'https://github.com/sozonome' },
   docsRepositoryBase: 'https://github.com/sozonome/my-base',
-  branch: 'main',
   navigation: {
     next: true,
     prev: true,
   },
-  unstable_flexsearch: true,
-  float: true,
+  toc: {
+    float: true,
+  },
   darkMode: true,
+  editLink: {
+    text: 'Edit this page on GitHub',
+  },
   titleSuffix: ' | base - sozonome',
   logo: (
     <>
@@ -17,11 +23,14 @@ export default {
       <span className="text-gray-600 font-normal md:inline">sozonome</span>
     </>
   ),
-  head: ({ title, meta }) => {
+  head: () => {
+    const router = useRouter()
+    const { title } = useConfig()
+
     const ogImgLink = `https://og.sznm.dev/api/generate?heading=${
       title ?? 'Base%20%7C%20sozonome'
     }&text=${
-      title ? "sozonome's knowledge base" : 'Personal%20Knowledge%20Base'
+      title ? "Base | sozonome's knowledge base" : 'Personal%20Knowledge%20Base'
     }`
 
     return (
@@ -31,13 +40,26 @@ export default {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="Content-Language" content="en" />
         <meta name="description" content="Base: sozonome's knowledge base" />
-        <meta name="og:description" content="Base: sozonome's knowledge base" />
+
+        {/* Twitter Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImgLink} />
         <meta name="twitter:site:domain" content="base.sznm.dev" />
         <meta name="twitter:url" content="https://base.sznm.dev" />
-        <meta name="og:title" content="Base: sozonome's knowledge base" />
+        <meta name="twitter:creator" content="@sozonome" />
+
+        {/* OpenGraph Meta */}
+        <meta
+          name="og:title"
+          content={title ?? "Base: sozonome's knowledge base"}
+        />
+        <meta name="og:type" content="website" />
+        <meta property="og:locale" content="en_IE" />
+        <meta property="og:site_name" content="Base | sozonome" />
+        <meta name="og:description" content="Base: sozonome's knowledge base" />
         <meta name="og:image" content={ogImgLink} />
+        <meta name="og:url" content={`https://base.sznm.dev${router.asPath}`} />
+
         <meta name="apple-mobile-web-app-title" content="Base" />
         <link
           rel="apple-touch-icon"
@@ -83,9 +105,8 @@ export default {
         <a
           href="https://sznm.dev"
           target="_blank"
-          style={{
-            textDecoration: 'underline',
-          }}
+          rel="noopener noreferrer"
+          className="underline underline-offset-4"
         >
           sozonome
         </a>
@@ -94,9 +115,7 @@ export default {
         need to be updated{' '}
         <a
           href="mailto:hello@sznm.dev?subject=base.sznm.dev&body=which-page-url-and-give-some-details-of-your-request-or-question"
-          style={{
-            textDecoration: 'underline',
-          }}
+          className="underline underline-offset-4"
         >
           here
         </a>
