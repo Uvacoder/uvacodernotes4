@@ -77,6 +77,7 @@ android {
 - https://developer.android.com/studio/publish/app-signing
   - https://developer.android.com/studio/publish/app-signing#opt-out
   - https://developer.android.com/reference/tools/gradle-api/4.2/com/android/build/api/dsl/SigningConfig
+  - https://docs.flutter.dev/deployment/android#reference-the-keystore-from-the-app
 - https://coderwall.com/p/zrdsmq/signing-configs-with-gradle-android
 
 ## Personal Examples
