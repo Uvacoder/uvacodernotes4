@@ -16,13 +16,23 @@ export default {
   editLink: {
     text: 'Edit this page on GitHub',
   },
-  titleSuffix: ' | base - sozonome',
   logo: (
     <>
       <span className="nx-mr-2 nx-font-extrabold md:nx-inline">Base</span>
       <span className="text-gray-600 font-normal md:inline">sozonome</span>
     </>
   ),
+  getNextSeoProps: function SEO() {
+    const { frontMatter } = useConfig()
+
+    const defaultTitle = frontMatter.overrideTitle || 'Base: sozonome\'s knowledge base';
+
+    return {
+      description: frontMatter.description,
+      defaultTitle,
+      titleTemplate: `%s | Base`,
+    }
+  },
   head: () => {
     const router = useRouter()
     const { title } = useConfig()
