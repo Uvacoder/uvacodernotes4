@@ -19,7 +19,7 @@ export default {
   titleSuffix: ' | base - sozonome',
   logo: (
     <>
-      <span className="mr-2 font-extrabold md:inline">Base</span>
+      <span className="nx-mr-2 nx-font-extrabold md:nx-inline">Base</span>
       <span className="text-gray-600 font-normal md:inline">sozonome</span>
     </>
   ),
@@ -100,27 +100,28 @@ export default {
   editLink: () => 'Edit this page →',
   footer: {
     text: (
-      <>
+      <div>
         2020 - {new Date().getFullYear()} |{' '}
         <a
           href="https://sznm.dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline underline-offset-4"
+          className="nx-underline nx-underline-offset-4 nx-font-bold"
         >
           sozonome
         </a>
-        .<br />
-        Feel free to let me know if there are some content which are outdated /
-        need to be updated{' '}
-        <a
-          href="mailto:hello@sznm.dev?subject=base.sznm.dev&body=which-page-url-and-give-some-details-of-your-request-or-question"
-          className="underline underline-offset-4"
-        >
-          here
-        </a>
-        .
-      </>
+        <p className="nx-text-sm nx-text-gray-500">
+          Feel free to let me know if there are some content which are outdated
+          / need to be updated{' '}
+          <a
+            href="mailto:hello@sznm.dev?subject=base.sznm.dev&body=which-page-url-and-give-some-details-of-your-request-or-question"
+            className="nx-underline nx-underline-offset-4"
+          >
+            here
+          </a>
+          .
+        </p>
+      </div>
     ),
   },
   // i18n: [
