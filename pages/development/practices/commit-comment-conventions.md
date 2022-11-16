@@ -1,6 +1,6 @@
-# Practices
+# Commit and Comment Conventions
 
-Some engineering practices.
+Some conventions around commit and comments for changes proposal or pull request.
 
 ## Conventional Commits
 
