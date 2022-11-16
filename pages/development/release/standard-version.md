@@ -2,6 +2,10 @@
 
 Some notes on automated versioning and changelog generation using `standard-version`.
 
+References:
+
+- https://github.com/conventional-changelog/standard-version
+
 ## Pre-Requisites
 
 1. [Node.js](https://nodejs.org/en/) and npm installed
@@ -32,6 +36,10 @@ npx standard-version --skip.commit --skip.tag
 npx standard-version --skip.changelog
 ```
 
+References:
+
+- https://github.com/conventional-changelog/standard-version#skipping-lifecycle-steps
+
 ### Override version number
 
 We can override version number using `--release-as`
@@ -42,6 +50,10 @@ npx standard-version --release-as minor
 # or
 npx standard-version --release-as 1.2.3
 ```
+
+References:
+
+- https://github.com/conventional-changelog/standard-version#release-as-a-target-type-imperatively-npm-version-like
 
 ## Accidentally Create wrong release or tag?
 
