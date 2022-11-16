@@ -37,11 +37,11 @@ export default {
     const router = useRouter()
     const { title } = useConfig()
 
-    const ogImgLink = `https://og.sznm.dev/api/generate?heading=${
+    const ogImgLink = encodeURI(`https://og.sznm.dev/api/generate?heading=${
       title ?? 'Base%20%7C%20sozonome'
     }&text=${
       title ? "Base | sozonome's knowledge base" : 'Personal%20Knowledge%20Base'
-    }`
+    }`)
 
     return (
       <>
